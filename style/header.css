@@ -1,0 +1,54 @@
+/* Estilo para o cabeçalho da página */
+/* Contém duas divs principais para organização do conteúdo */
+.cabecalho {
+    /* Cor de fundo do cabeçalho, definida pela variável CSS */
+    background-color: var(--cor-fundo);
+    
+    /* Utiliza Flexbox para alinhar os elementos horizontalmente */
+    display: flex;
+    
+    /* Alinha os elementos em uma linha */
+    flex-direction: row;
+    
+    /* Espaça os elementos dentro do cabeçalho igualmente */
+    justify-content: space-between;
+    
+    /* Centraliza verticalmente os elementos no cabeçalho */
+    align-items: center;
+    
+    /* Espaçamento interno do cabeçalho */
+    padding: 18px 24px;
+}
+
+/* Estilo para as divs que contêm os ícones dentro do cabeçalho */
+.cabecalho_container {
+    /* Utiliza Flexbox para alinhar os ícones em linha */
+    display: flex;
+    
+    /* Alinha os ícones horizontalmente */
+    flex-direction: row;
+    
+    /* Centraliza verticalmente os ícones dentro da div */
+    align-items: center;
+}
+
+/* Estilo para o menu hambúrguer no cabeçalho */
+.cabecalho__menu-hamburguer {
+    /* Exibe o elemento como um bloco em linha */
+    display: inline-block;
+    
+    /* Define a imagem de fundo para o ícone do menu */
+    background-image: url("../assets/Menu.svg");
+    
+    /* Define a largura do ícone do menu */
+    width: 36px;
+    
+    /* Define a altura do ícone do menu */
+    height: 24px;
+}
+
+/* Estilo para os links dentro do cabeçalho */
+.cabecalho_link {
+    /* Espaçamento interno ao redor dos links */
+    padding: 8px;
+}

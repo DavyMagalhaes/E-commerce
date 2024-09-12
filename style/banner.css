@@ -1,0 +1,83 @@
+/* Estilo para a seção de banner */
+.banner {
+    /* Fundo com degradê azul definido por uma variável CSS */
+    background: var(--azul-degrade);
+    
+    /* Texto na cor branca, também definida por uma variável CSS */
+    color: var(--branco);
+    
+    /* Centraliza o texto na seção */
+    text-align: center;
+    
+    /* Adiciona espaçamento interno ao redor do conteúdo da seção */
+    padding: 2.5em 2em;
+}
+
+/* Estilo para o título dentro do banner */
+.banner__titulo {
+    /* Define o peso da fonte para o título */
+    font-weight: 700;
+    
+    /* Tamanho da fonte para o título */
+    font-size: 18px;
+    
+    /* Cor do texto do título, aqui definida como branca */
+    color: #ffff;
+}
+
+/* Estilo para o texto dentro do banner */
+.banner__texto {
+    /* Define o peso da fonte para o texto */
+    font-weight: 500;
+    
+    /* Adiciona margem superior e inferior ao texto */
+    margin: 1em 0;
+}
+
+/* Estilo para o campo de pesquisa dentro do banner */
+.banner__pesquisa {
+    /* Fundo transparente */
+    background-color: transparent;
+    
+    /* Borda branca, definida por uma variável CSS */
+    border: 1px solid var(--branco);
+    
+    /* Cor do texto dentro do campo de pesquisa */
+    color: var(--branco);
+    
+    /* Borda arredondada com 24px de raio */
+    border-radius: 24px;
+    
+    /* Espaçamento interno ao redor do conteúdo do campo de pesquisa */
+    padding: 1em;
+    
+    /* Largura do campo de pesquisa definida como 100% */
+    width: 100%;
+}
+
+/* Estilo para o placeholder do campo de pesquisa */
+.banner__pesquisa::placeholder {
+    /* Fonte definida pela variável CSS principal */
+    font-family: var(--fonte-principal);
+    
+    /* Tamanho da fonte do placeholder */
+    font-size: 14px;
+    
+    /* Peso da fonte do placeholder */
+    font-weight: 400;
+    
+    /* Centraliza o texto do placeholder */
+    text-align: center;
+    
+    /* Cor do placeholder definida como branca */
+    color: var(--branco);
+    
+    /* Adiciona uma imagem de lupa como background */
+    background: url("../assets/lupa.svg");
+    
+    /* Impede que a imagem se repita */
+    background-repeat: no-repeat;
+    
+    /* Posiciona a imagem de lupa à esquerda, com espaçamento de 1em */
+    background-position: 1em;
+}

@@ -1,0 +1,140 @@
+/* Estilo para o título do carrossel */
+.carrossel_titulo {
+    /* Alinhamento do texto ao centro */
+    text-align: center;
+    
+    /* Tamanho da fonte do título */
+    font-size: 1.125rem;
+    
+    /* Cor do texto definida pela variável CSS laranja */
+    color: var(--laranja);
+    
+    /* Peso da fonte para o título */
+    font-weight: 700;
+    
+    /* Fundo branco definido pela variável CSS */
+    background-color: var(--branco);
+    
+    /* Espaçamento interno ao redor do texto */
+    padding: 1em;
+    
+    /* Transforma o texto para letras maiúsculas */
+    text-transform: uppercase;
+}
+
+/* Estilo para as imagens dentro do carrossel */
+.swiper-slide img {
+    /* Define a largura da imagem como 100% do container */
+    width: 100%;
+}
+
+/* Estilo para a paginação do carrossel */
+.swiper-pagination {
+    /* Define a posição do elemento, mas está incorreta */
+    position: i-; /* Deve ser corrigida */
+    
+    /* Margem ao redor do elemento de paginação */
+    margin: 0.5em;
+}
+
+/* Estilo para os cartões */
+.card {
+    /* Fundo branco para o cartão, definido pela variável CSS */
+    background-color: var(--branco);
+    
+    /* Borda arredondada com 10px de raio */
+    border-radius: 0.625em; /* 10px */
+    
+    /* Espaçamento interno ao redor do conteúdo do cartão */
+    padding: 1em;
+    
+    /* Margem ao redor do cartão */
+    margin: 1.2em;
+    
+    /* Sombra ao redor do cartão para dar profundidade */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo para a área de informações dentro do cartão */
+.card_infos {
+    /* Flexbox para alinhar os elementos em linha */
+    display: flex;
+    
+    /* Espaçamento entre os elementos para ocupar todo o espaço disponível */
+    justify-content: space-between;
+    
+    /* Margem inferior para espaçamento abaixo do conteúdo */
+    margin-bottom: 0.5em;
+}
+
+/* Estilo para a área de textos dentro das informações do cartão */
+.card_infos_textos {
+    /* Margem inferior para espaçamento abaixo do texto */
+    margin-bottom: 0.5em;
+    
+    /* Flexbox para alinhar os textos em coluna */
+    display: flex;
+    
+    /* Direção da coluna */
+    flex-direction: column;
+    
+    /* Espaçamento entre os textos */
+    gap: 10px;
+}
+
+/* Estilo para a área de botões dentro do cartão */
+.card_botoes {
+    /* Flexbox para alinhar os botões em linha */
+    display: flex;
+    
+    /* Espaçamento entre os botões para ocupar todo o espaço disponível */
+    justify-content: space-between;
+}
+
+/* Estilo para o texto do título H3 */
+h3 {
+    /* Cor do texto definida pela variável CSS laranja */
+    color: var(--laranja);
+    
+    /* Peso da fonte para o título H3 */
+    font-weight: 700;
+}
+
+/* Estilo para o texto do título H2 */
+h2 {
+    /* Cor do texto definida como #002F52 */
+    color: #002F52;
+    
+    /* Peso da fonte para o título H2 */
+    font-weight: 700;
+}
+
+/* Estilo para os botões */
+.botao {
+    /* Fundo laranja definido pela variável CSS */
+    background-color: var(--laranja);
+    
+    /* Borda sólida */
+    border-style: solid;
+    
+    /* Remove a decoração de texto */
+    text-decoration: none;
+    
+    /* Cor do texto definida como branca pela variável CSS */
+    color: var(--branco);
+    
+    /* Centraliza o texto dentro do botão */
+    text-align: center;
+    
+    /* Espaçamento interno ao redor do conteúdo do botão */
+    padding: 1em;
+}
+
+/* Estilo para a imagem de estrela */
+.estrela {
+    /* Largura da imagem */
+    width: 91px;
+    
+    /* Altura da imagem */
+    height: 15px;
+}

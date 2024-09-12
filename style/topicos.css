@@ -1,0 +1,95 @@
+/* Estilização da seção de tópicos visitados */
+.topicos-visitados{
+    /* Define o gradiente azul de fundo */
+    background: var(--azul-degrade);
+    /* Define o padding da seção */
+    padding: 20px;
+    /* Centraliza o texto */
+    text-align: center;
+    /* Define a cor do texto */
+    color: #FFFFFF;
+    /* Define a margem superior */
+    margin-top: 20px;
+}
+
+/* Estilização dos parágrafos dentro de tópicos visitados */
+.topicos-visitados p{
+    /* Define a cor do texto */
+    color: #FFFFFF;
+    /* Define o tamanho da fonte */
+    font-size: 20px;
+    /* Define a margem inferior */
+    margin-bottom: 20px;
+}
+
+/* Estilização do contêiner de tópicos */
+.topicos-cont{
+    /* Define o layout flexível */
+    display: flex;
+    /* Organiza os itens em coluna */
+    flex-direction: column;
+    /* Define o espaço entre os itens */
+    gap: 10px;
+}
+
+/* Estilização da linha que contém os tópicos */
+.row{
+    /* Define o layout flexível */
+    display: flex;
+    /* Centraliza os itens */
+    justify-content: center;
+    /* Define o espaço entre os itens */
+    gap: 24px;
+    /* Permite a quebra de linha para os itens */
+    flex-wrap: wrap;
+}
+
+/* Estilização dos botões dos tópicos */
+.topico-botao{
+    /* Define a cor de fundo */
+    background-color: #EB9B00;
+    /* Define a cor do texto */
+    color: #FFFFFF;
+    /* Define o peso da fonte */
+    font-weight: bold;
+    /* Remove a borda */
+    border: none;
+    /* Define o padding */
+    padding: 15px 20px;
+    /* Define o tamanho da fonte */
+    font-size: 16px;
+    /* Define o cursor como pointer */
+    cursor: pointer;
+    /* Define a transição da cor de fundo */
+    transition: background-color 0.3s;
+    /* Define o flexível para ocupar todo o espaço disponível */
+    flex: 1;
+    /* Define a largura máxima */
+    max-width: 180px;
+    /* Centraliza o texto */
+    text-align: center;
+}
+
+/* Estilização dos botões ao passar o mouse */
+.topico-botao:hover {
+    /* Muda a cor de fundo ao passar o mouse */
+    background-color: #D18A00;
+}
+
+/* Estilizações específicas para telas menores */
+@media (max-width: 768px) {
+    /* Estilização da linha de tópicos em telas menores */
+    .row {
+        /* Organiza os itens em coluna */
+        flex-direction: column;
+        /* Diminui o espaço entre os itens */
+        gap: 10px;
+    }
+
+    /* Estilização dos botões dos tópicos em telas menores */
+    .topico-botao {
+        /* Define a largura máxima como 100% */
+        max-width: 100%;
+    }
+}
+

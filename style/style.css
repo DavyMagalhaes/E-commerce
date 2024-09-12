@@ -1,0 +1,222 @@
+/* Importa o CSS do cabeçalho */
+@import url("header.css");
+/* Importa o CSS do banner */
+@import url("banner.css");
+/* Importa o CSS do carrossel */
+@import url("carrossel.css");
+/* Importa o CSS dos tópicos */
+@import url("topicos.css");
+
+/* Define variáveis de cores e fontes */
+:root{
+    /* Gradiente azul */
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    /* Cor azul */
+    --azul: #002F52;
+    /* Cor laranja */
+    --laranja: #EB9B00;
+    /* Cor branca */
+    --branco: #FFFFFF;
+    /* Cor de fundo padrão */
+    --cor-fundo: white;
+    /* Fonte principal */
+    --fonte-principal:"Poppins";
+}
+
+/* Estilização do body */
+body{
+    /* Define a cor de fundo */
+    background-color: var(--cor-fundo);
+    /* Define a fonte principal */
+    font-family: var(--fonte-principal);
+    /* Define o tamanho da fonte */
+    font-size: 16px;
+    /* Define o peso da fonte */
+    font-weight: 400;
+}
+
+/* Estilização do footer */
+footer{
+    /* Define a cor de fundo do rodapé */
+    background-color: #FFFFFF;
+    /* Define o padding do rodapé */
+    padding: 20px;
+}
+
+/* Estilização do conteúdo do email */
+.email-content{
+    /* Define o layout flexível */
+    display: flex;
+    /* Justifica o conteúdo com espaço entre os itens */
+    justify-content: space-between;
+    /* Alinha os itens no centro */
+    align-items: center;
+    /* Define a margem inferior */
+    margin-bottom: 20px;
+    /* Define a altura do conteúdo do email */
+    height: 250px;
+    /* Define a largura máxima */
+    max-width: 800px;
+    /* Centraliza o conteúdo */
+    margin: 0 auto;
+    /* Define o padding */
+    padding: 0 10px;
+}
+
+/* Estilização do texto principal */
+.text-on{
+    /* Remove margem */
+    margin:0;
+    /* Define o tamanho da fonte */
+    font-size: 24px;
+    /* Define o peso da fonte */
+    font-weight: 500;
+    /* Define a cor do texto */
+    color: #002F52;
+    /* Alinha o texto à esquerda */
+    text-align: left;
+}
+
+/* Estilização do texto secundário */
+.text-od{
+    /* Define margem */
+    margin: 3px;
+    /* Define o tamanho da fonte */
+    font-size: 16px;
+    /* Define o peso da fonte */
+    font-weight: 300;
+    /* Define a cor do texto */
+    color: #326589;
+    /* Alinha o texto à esquerda */
+    text-align: left;
+}
+
+/* Estilização do formulário dentro do conteúdo do email */
+.email-content form{
+    /* Define o layout flexível */
+    display: flex;
+    /* Justifica o conteúdo no final */
+    justify-content: flex-end;
+    /* Alinha os itens no centro */
+    align-items: center;
+}
+
+/* Estilização do input de email */
+.email-content input[type="email"]{
+    /* Define o padding */
+    padding: 10px;
+    /* Define o tamanho da fonte */
+    font-size: 16px;
+    /* Define a largura */
+    width: 250px;
+    /* Define a borda */
+    border: 1px solid #002F52;
+    /* Define o arredondamento dos cantos */
+    border-radius: 24px;
+}
+
+/* Estilização do contêiner do input de email */
+.email-input{
+    /* Define a posição como relativa */
+    position: relative;
+    /* Define o layout flexível */
+    display: flex;
+    /* Alinha os itens no centro */
+    align-items: center;
+}
+
+/* Estilização do ícone de email */
+.email-icone{
+    /* Define a posição como absoluta */
+    position: absolute;
+    /* Define a posição à esquerda */
+    left: 10px;
+    /* Define o tamanho da fonte */
+    font-size: 18px;
+    /* Define a cor do ícone */
+    color: #002F52;
+}
+
+/* Estilização do input de email dentro do contêiner */
+.email-input input[type="email"]{
+    /* Define o padding com espaço para o ícone */
+    padding: 10px 10px 10px 35px;
+    /* Define o tamanho da fonte */
+    font-size: 16px;
+    /* Define a largura */
+    width: 300px;
+    /* Define a borda */
+    border: 1px solid #ccc;
+}
+
+/* Estilização do placeholder do input de email */
+.email-input input[type="email"]::placeholder {
+    /* Define a cor do placeholder */
+    color: #002F52;
+}
+
+/* Estilização do título de nível 3 */
+.color-h3{
+    /* Define a margem inferior */
+    margin-bottom: 10px;
+    /* Define a cor do texto */
+    color: black;
+    /* Define o peso da fonte */
+    font-weight: 400;
+}
+
+/* Estilização do título de nível 4 */
+.color-h4{
+    /* Define a margem inferior */
+    margin-bottom: 10px;
+    /* Define a cor do texto */
+    color: #cccccc;
+}
+
+/* Estilização do conteúdo do rodapé */
+.footer-content{
+    /* Define o layout flexível */
+    display: flex;
+    /* Justifica o conteúdo com espaço ao redor */
+    justify-content: space-around;
+    /* Permite a quebra de linha para os itens */
+    flex-wrap: wrap;
+    /* Define o padding */
+    padding: 20px 0;
+    /* Define a cor de fundo */
+    background-color: #f9f9f9;
+    /* Define o arredondamento dos cantos */
+    border-radius: 10px;
+}
+
+/* Estilização das seções do rodapé */
+.footer-section{
+    /* Define a margem */
+    margin: 10px;
+}
+
+/* Estilização das listas dentro das seções do rodapé */
+.footer-section ul{
+    /* Remove a estilização da lista */
+    list-style-type: none;
+    /* Remove o padding */
+    padding: 0;
+}
+
+/* Estilização dos itens da lista dentro das seções do rodapé */
+.footer-section ul li{
+    /* Define a margem inferior */
+    margin-bottom: 5px;
+    /* Define a cor do texto */
+    color: #474646;
+    /* Define o layout flexível */
+    display: flex;
+    /* Alinha os itens no centro */
+    align-items: center;
+}
+
+/* Estilização das imagens dentro dos itens da lista no rodapé */
+.footer-section ul li img{
+   /* Define a margem à direita das imagens */
+   margin-right: 8px;
+}

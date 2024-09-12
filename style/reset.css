@@ -1,0 +1,62 @@
+/* Remove margens, padding, borda e seta todos os elementos para o tamanho padrão */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	/* Margem zerada */
+	margin: 0;
+	/* Padding zerado */
+	padding: 0;
+	/* Borda zerada */
+	border: 0;
+	/* Tamanho da fonte definido para 100% */
+	font-size: 100%;
+	/* Herdar estilo da fonte */
+	font: inherit;
+	/* Alinhamento vertical para baseline */
+	vertical-align: baseline;
+}
+
+/* Reset de exibição para navegadores mais antigos */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	/* Define elementos HTML5 como blocos */
+	display: block;
+}
+
+/* Define a altura da linha do body */
+body {
+	line-height: 1;
+}
+
+/* Remove os marcadores de lista para listas ordenadas e não ordenadas */
+ol, ul {
+	list-style: none;
+}
+
+/* Remove aspas de blockquotes e elementos <q> */
+blockquote, q {
+	quotes: none;
+}
+
+/* Remove conteúdo de before e after em blockquotes e elementos <q> */
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* Define o colapso das bordas e espaçamento entre células da tabela como zero */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
